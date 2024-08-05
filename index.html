@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css"/>
+    <title>Tryst | Home</title>
+    <meta name="author" content="Tatjana Radisavljević"/>
+    <meta name="description" content="Made iconic by the people, parties, and performances that defined San Juan nightlife in the 60s, Tryst Hotel invites guests to experience an authentic celebration of Puerto Rico's traditions, old and new."/>
+    <meta name="keywords" content="Tryst, Hotel, Puerto Rico, San Juan, Vacation"/>
+</head>
+<body>
+
+    
+    <div class="container-fluid flex-wrap-wrap fixed-top">
+        <div class="row justify-content-between align-items-center">
+            <nav class="col-12 navbar navbar-expand-lg navbar-light bg-light p-2">
+                    <div class="logo col-2">
+                        <a href="index.html" class="text-decoration-none fs-3 fw-bold  text-danger text-opacity-75">Tryst</a>
+                    </div>
+                  <button class="navbar-toggler d-flex align-items-center d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>  Menu
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarScroll">
+                    <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item mx-md-2">
+                            <a href="index.html" class="nav-link fw-bold fs-5 text-uppercase text-danger text-opacity-75">Home</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="rooms.html" class="nav-link fw-bold fs-5 text-uppercase">Rooms</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="about.html" class="nav-link fw-bold fs-5 text-uppercase">About Us</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="contact.html" class="nav-link fw-bold fs-5 text-uppercase">Contact</a>
+                        </li>
+                        <li class="nav-item mx-md-2">
+                            <a href="author.html" class="nav-link fw-bold fs-5 text-uppercase">Author</a>
+                        </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0 m-0 position-relative">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2500">
+                        <img src="assets/images/bgHome1.jpg" class="d-block w-100" alt="Tryst Hotel"/>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2500">
+                        <img src="assets/images/bgHome2.jpg" class="d-block w-100" alt="Tryst Hotel"/>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2500">
+                        <img src="assets/images/bgHome3.jpg" class="d-block w-100" alt="Tryst Hotel"/>
+                      </div>
+                      
+                    </div>
+                  </div>
+
+                  <div class="carousel-caption  my-3 mt-md-0 form carouselWidth px-4 bg-light bg-md-transparent">
+                    <form action="#" method="">
+                      <div class="row justify-content-center justify-content-md-between">
+                        <div class="col-10 col-md-2 bg-light p-3 rounded  my-2 my-md-0">
+                          <label for="checkIn" class="text-dark mb-2">Check-In</label>
+                          <input type="date" name="checkIn" id="checkIn" class="form-control bg-transparent"/>
+                        </div>
+                        <div class="col-10 col-md-2 bg-light p-3 rounded  my-2 my-md-0">
+                          <label for="checkOut" class="text-dark mb-2">Check-Out</label>
+                          <input type="date" name="checkOut" id="checkOut" class="form-control bg-transparent"/>
+                        </div>
+                        <div class="col-10 col-md-2 bg-light p-3 rounded  my-2 my-md-0">
+                          <label for="room" class="text-dark mb-2">Adult</label>
+                          <select name="room" id="room" class="form-select">
+                            <option value="0">Choose adult guests</option>
+                            <option value="1">1 Adult</option>
+                            <option value="2">2 Adult</option>
+                            <option value="3">3 Adult</option>
+                            <option value="4">4 Adult</option>
+                          </select>
+                        </div>
+                        <div class="col-10 col-md-2 bg-light p-3 rounded  my-2 my-md-0">
+                          <label for="room" class="text-dark mb-2">Children</label>
+                          <select name="room" id="room" class="form-select">
+                            <option value="0">Choose children guests</option>
+                            <option value="1">1 Child</option>
+                            <option value="2">2 Children</option>
+                            <option value="3">3 Children</option>
+                            <option value="4">4 Children</option>
+                          </select>
+                        </div>
+                        <div class="col-10 col-md-2 rounded my-2 my-md-0">
+                          <input type="button" value="Check Availability" class="btn bg-danger bg-opacity-75 btnCheck text-wrap text-light"/>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row justify-content-center justify-content-md-between my-5">
+      <div class="col-10 col-md-6 col-lg-3">
+        <img src="assets/images/hotel1.jpg" alt="Hotel" class="img-fluid rounded"/>
+      </div>
+      <div class="col-10 col-md-4 my-3 my-md-0">
+        <p class="text-uppercase text-secondary">Welcome to Deluxe Hotel</p>
+        <h1 class="text-danger text-opacity-75">Welcome To Tryst Hotel</h1>
+        <p class="fs-5">Made iconic by the people, parties, and performances that defined San Juan nightlife in the 60s, Tryst Hotel invites guests to experience an authentic celebration of Puerto Rico's traditions, old and new. From its storied décor and inspired cuisine to renowned gatherings and lush poolscape, the hotel creates an atmosphere of celebration for locals and travelers alike.</p>
+      </div>
+      <div class="col-10 d-md-none col-lg-3 d-lg-block">
+        <img src="assets/images/hotel2.jpg" alt="Hotel" class="img-fluid rounded"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid my-5 p-2 bg-light">
+    <div class="row justify-content-center justify-content-md-between">
+      <div class="col-12 text-center my-4">
+        <p class="text-secondary text-uppercase ">What we do</p>
+        <h2 class="text-danger text-opacity-75">Discover Our Services</h2>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-route fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Travel Plan</h3>
+        <p>When You Realize Vacation Can Actually Be Relaxing. That's When You Know You're A Member.</p>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-utensils fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Catering Service</h3>
+        <p>Whether you're throwing a party for 40 or 400, hire the best catering services for you.</p>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-baby-carriage fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Babysitting</h3>
+        <p>Our engaging babysitters will provide expert childcare and keep your children safe and happy.</p>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-washing-machine fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Laundry</h3>
+        <p>Laundry, ironing & dry cleaning at the comfort of your hotel. Book a same-day collection.</p>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-car fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Hire Driver</h3>
+        <p>Reserve your private driver to act as your personal chauffeur for the day or evening.</p>
+      </div>
+      <div class="col-10 col-sm-5 col-md-3 mx-md-2 text-center p-5">
+        <i class="fa-solid fa-martini-glass fs-1 text-danger text-opacity-75"></i>
+        <h3 class="my-2">Bar & Drink</h3>
+        <p>From exquisite French cuisine to our sophisticated rooftop lounge. Enjoy our Food and Drinks.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid gallery">
+    <div class="row">
+      <div class="col-12 text-center my-4">
+        <p class="text-secondary text-uppercase ">Folow Us</p>
+        <h2 class="text-danger text-opacity-75">Instagram</h2>
+      </div>
+      <div class="col-6 col-md-3 p-0">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="assets/images/gallery1.png" alt="Instagram Gallery" class="img-fluid"/>
+        </a>
+      </div>
+      <div class="col-6 col-md-3  p-0">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="assets/images/gallery2.png" alt="Instagram Gallery" class="img-fluid"/>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 p-0">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="assets/images/gallery3.png" alt="Instagram Gallery" class="img-fluid"/>
+        </a>
+      </div>
+      <div class="col-6 col-md-3 p-0">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="assets/images/gallery4.png" alt="Instagram Gallery" class="img-fluid"/>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5 bg-danger bg-opacity-75 text-light footer">
+    <div class="row justify-content-center justify-content-md-between">
+      <div class="col-12 col-md-3 my-4">
+        <h2>Tryst</h2>
+        <p>You'll feel immersed in Puerto Rican culture with warm textures, subtle ocean hues and stunning views.</p>
+        <a href="https://www.linkedin.com/" target="_blank" class="me-2"><i class="fa-brands fa-linkedin text-light fs-2"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" class="me-2"><i class="fa-brands fa-facebook-square text-light fs-2"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" class="me-2"><i class="fa-brands fa-instagram text-light fs-2"></i></a>
+        <a href="https://www.youtube.com/" target="_blank" class="me-2"><i class="fa-brands fa-youtube text-light fs-2"></i></a>
+      </div>
+      <div class="col-12 col-md-4 my-4">
+        <h2>Have A Question?</h2>
+        <p>Address:	1 Cll Vendig, San Juan, Puerto Rico</p>
+        <p>Phone:	(12) 345 67890</p>
+        <p>E-mail:	tryst@gmail.com</p>
+      </div>
+      <div class="col-12 col-md-4 my-4">
+        <form action="#" method="#">
+          <label for="newsletter" class="mb-2">Sign up for our newsletter</label>
+          <input type="text" name="newsletter" id="newsletter" class="form-control bg-transparent mb-2 border-0 border-bottom rounded-0" placeholder="E-mail"/>
+          <input type="button" value="Sign Up" class="btn btn-light text-danger text-uppercase"/>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="col-12 text-center">
+      <a href="assets/css/style.css" class="text-decoration-none text-light fs-3">CSS</a>
+    </div>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
